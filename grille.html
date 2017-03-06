@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/test-grille.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+
+      <!-- //////////////////// PRINCIPE //////////////////// -->
+      <div class="row">
+        <div class="col-lg-1">1 colonne</div>
+        <div class="col-lg-2">2 colonnes</div>
+        <div class="col-lg-3">3 colonnes</div>
+        <div class="col-lg-6">6 colonnes</div>
+      </div>
+
+      <!-- //////////////////// LIGNE DE 12 //////////////////// -->
+      <div class="row">
+        <div class="col-lg-12">12 colonnes</div>
+      </div>
+
+      <!-- //////////////////// VIDE % //////////////////// -->
+      <div class="row">
+        <div class="col-lg-3">3 colonnes</div>
+        <div class="col-lg-offset-6 col-lg-3">3 colonnes</div>
+      </div>
+
+      <!-- //////////////////// IMBRICATION //////////////////// -->
+      <div class="row">
+        <div class="col-lg-8">8 colonnes
+          <div class="row">
+            <div class="col-lg-3">3 colonnes</div>
+            <div class="col-lg-6">6 colonnes</div>
+            <div class="col-lg-3">3 colonnes</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- //////////////////// DECALER COLONNE //////////////////// -->
+      <div class="row">
+        <div class="col-lg-12">12 colonnes
+          <div class="row">
+            <div class="col-lg-2 col-lg-push-8">Colonne 1</div> <!--VERS LA DROITE-->
+            <div class="col-lg-2 col-lg-push-3">Colonne 2</div> <!--VERS LA DROITE-->
+            <div class="col-lg-2 col-lg-pull-2">Colonne 3</div> <!--VERS LA GAUCHE-->
+          </div>
+        </div>
+      </div>
+
+      <!-- //////////////////// EXERCICE OpenClassroom //////////////////// -->
+      <div class="row">
+        <div class="col-lg-6">6 colonnes
+          <div class="row">
+            <div class="col-lg-4">4 colonnes</div>
+            <div class="col-lg-4 col-lg-push-4">4 colonnes</div>
+          </div>
+        </div>
+        <div class="col-lg-6">6 colonnes
+          <div class="row">
+            <div class="col-lg-4">4 colonnes</div>
+            <div class="col-lg-offset-4 col-lg-4">4 colonnes</div>
+          </div>
+        </div>
+      </div>
+</div>
+</body>
+</html>
